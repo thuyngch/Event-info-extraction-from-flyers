@@ -24,57 +24,22 @@ In Ubuntu 16.04, you can install Tesseract by the following command:
 sudo apt-get install tesseract
 ```
 
-## Running the tests
+## Project organization
 
-Explain how to run the automated tests for this system
+There are two main folders **Document** and **MATLAB**.
 
-### Break down into end to end tests
+Folder **Document** contains documents, e.g. *Report.pdf* (of Standford students) and *Vietnamese translation.pdf* (our translation). 
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Folder **MATLAB** is the whole of system. Within it, *fnc* is old algorithm, *refine* is improved algorithm, *im* is the image database, *result* is the buffer to store files generated during running the system, *gui* contains a GUI of the system, *quality.xlsx* is the metric of two algorithms.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+At the beginning, you must change the current folder to *MATLAB* folder and run the command ```startup``` to prepare for needed components for the system.
 
-## Built With
+Subsequently, there are two way to run the system. First, you can use the GUI by typing the command ```gui``` to run the system with the improved algorithm. Second, you may implement the old algorithm by the command ```run_im```, however, keep in mind that the you must change the path of image that you want to run in the file *run_im.m*.
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Team members
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
+* **Do Tieu Thien** - *Leader*, *Pre-processing*
+* **Nguyen Chinh Thuy** - *Text Detection*, *Algorithm improvement*
+* **Le Van Hoang Phuong** - *Post-processing*, *Tesseract-OCR*
