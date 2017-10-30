@@ -11,6 +11,8 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
+Ubuntu 16.04, the OS that we use to run this system and we also recommend you to run the system in this OS.
+
 MATLAB R2016b or higher versions, the main IDE tool to run the algorithm.
 
 Tesseract-OCR, the text-extraction tool used in the system.
