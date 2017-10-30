@@ -1,6 +1,10 @@
 # Event-info-extraction-from-flyers
 
-Extract key information (i.e., time and location) of an event from a poster/flyer using Digital image processing technique.
+Extract key information (i.e., time and location) of an event from a poster/flyer using Digital image processing technique. In this project, we adopt and develop the assignment project 'Event Info Extraction from Mobile Camera Images' from Standford students in this link:
+
+```
+https://web.stanford.edu/class/ee368/Project_Winter_1314/
+```
 
 ## Getting Started
 
