@@ -40,6 +40,8 @@ At the beginning, you must change the current folder to *MATLAB* folder and run 
 
 Subsequently, there are two way to run the system. First, you can use the GUI by typing the command ```gui``` to run the system with the improved algorithm. Second, you may implement the old algorithm by the command ```run_im```, however, keep in mind that the you must change the path of image that you want to run in the file *run_im.m*.
 
+[See demo video](https://youtu.be/TrWnVXtxauQ).
+
 ## Team members
 
 * **Do Tieu Thien** - *Leader*, *Pre-processing*
